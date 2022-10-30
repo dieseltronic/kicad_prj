@@ -1,0 +1,40 @@
+Platinen-Statistikbericht
+=========================
+- Datum: Fr 14 Okt 2022 16:03:35 CEST
+- Projekt: picblinker
+- Platinennname: picblinker
+
+Platine
+-----
+- Breite: 11,7500 mm
+- Höhe: 6,2500 mm
+- Fläche: 73,4375 sq. mm
+
+Pads
+----
+- Durchgehende Bohrung: 0
+- SMD: 20
+- Anschluss: 0
+- NPTH: 0
+
+Vias
+----
+- Durchkontaktierungen: 0
+- Blind/Vergraben: 0
+- Mikro-Vias: 0
+
+Bauteile
+----------
+
+|             | Oberseite | Rückseite | Insgesamt |
+|-------------|-----------|-----------|-----------|
+|Durchsteck:  |        0  |        0  |        0  |
+|SMD:         |        7  |        0  |        7  |
+|Gesamt:      |        7  |        0  |        7  |
+|             |           |           |           |
+
+Bohrlöcher
+-----------
+
+| Anzahl | Form | Größe X | Größe Y | Metallisiert | Via/Pad | Startlage | Endlage |
+|--------|------|---------|---------|--------------|---------|-----------|---------|

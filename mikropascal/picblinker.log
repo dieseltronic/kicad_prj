@@ -1,0 +1,22 @@
+0	1	mPPic.exe -MSF -DBG -pP10F322 -Y -DL -RA -O11111110 -fo1 -N"D:\kicad\mikropascal\picblinker.mpppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroPascal PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroPascal PRO for PIC\Uses\P16\" -SP"D:\kicad\mikropascal\" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "picblinker.mpas"	 
+diagnostics: 0	155	Available RAM: 64 [bytes], Available ROM: 512 [bytes]	 
+diagnostics: 0	133	Compilation Started	C:\Users\Public\Documents\Mikroelektronika\mikroPascal PRO for PIC\Defs\P10F322.mpas
+hint: 1	1015	Hint: Compiling unit "C:\Users\Public\Documents\Mikroelektronika\mikroPascal PRO for PIC\Defs\P10F322.mpas"	P10F322.mpas
+hint: 858	1010	Hint: Unit "P10F322.mpas" has been recompiled	P10F322.mpas
+diagnostics: 0	134	Compiled Successfully	C:\Users\Public\Documents\Mikroelektronika\mikroPascal PRO for PIC\Defs\P10F322.mpas
+diagnostics: 0	133	Compilation Started	C:\Users\Public\Documents\Mikroelektronika\mikroPascal PRO for PIC\Uses\P16\__Lib_Delays.mpas
+hint: 1	1015	Hint: Compiling unit "C:\Users\Public\Documents\Mikroelektronika\mikroPascal PRO for PIC\Uses\P16\__Lib_Delays.mpas"	__Lib_Delays.mpas
+warning: 30	1522	Warning: Value of Time argument is too small, no code generated	__Lib_Delays.mpas
+hint: 168	1010	Hint: Unit "__Lib_Delays.mpas" has been recompiled	__Lib_Delays.mpas
+diagnostics: 0	134	Compiled Successfully	C:\Users\Public\Documents\Mikroelektronika\mikroPascal PRO for PIC\Uses\P16\__Lib_Delays.mpas
+diagnostics: 0	133	Compilation Started	D:\kicad\mikropascal\picblinker.mpas
+hint: 1	1015	Hint: Compiling unit "D:\kicad\mikropascal\picblinker.mpas"	picblinker.mpas
+hint: 23	1010	Hint: Unit "picblinker.mpas" has been recompiled	picblinker.mpas
+diagnostics: 0	134	Compiled Successfully	D:\kicad\mikropascal\picblinker.mpas
+diagnostics: 0	139	All files Compiled in 0 ms	 
+hint: 0	1144	Used RAM (bytes): 0 (1%)  Free RAM (bytes): 64 (99%)	Used RAM (bytes): 0 (1%)  Free RAM (bytes): 64 (99%)
+hint: 0	1144	Used ROM (program words): 11 (2%)  Free ROM (program words): 501 (98%)	Used ROM (program words): 11 (2%)  Free ROM (program words): 501 (98%)
+diagnostics: 0	145	Project Linked Successfully	picblinker.mpppi
+diagnostics: 0	140	Linked in 0 ms	 
+diagnostics: 0	141	Project 'picblinker.mpppi' completed: 31 ms	 
+diagnostics: 0	103	Finished successfully: 28 Jan 2022, 11:56:45	picblinker.mpppi

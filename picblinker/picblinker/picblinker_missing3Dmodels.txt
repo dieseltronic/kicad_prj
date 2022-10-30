@@ -1,0 +1,9 @@
+### Missing 3D models - created on 2022-10-14 16:01
+### Printed by checking_3D_models plugin
+Board file: /media/volker/trayssd/sort/kicad/picblinker/picblinker/picblinker.kicad_pcb
+3D missing models written to:
+/media/volker/trayssd/sort/kicad/picblinker/picblinker/picblinker_missing3Dmodels.txt
+-------
+-------
+NUM of 3D missing models:0
+checked extensions ['.stp', '.step', '.stpZ']

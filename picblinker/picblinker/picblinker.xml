@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/volker/tmp/picblinker/picblinker/picblinker.kicad_sch</source>
+    <date>Sa 22 Jan 2022 15:45:01 CET</date>
+    <tool>Eeschema 6.0.1-79c1e3a40b~116~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>picblinker.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picblinker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd933c42-07c6-4597-9911-0069c93af4cc</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED_rot</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picblinker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96f4d188-fdc2-4104-a494-fa8edb0b4b10</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopOnly</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picblinker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e15ae886-0eb7-44a5-b3c2-208e751d0032</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopOnly</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picblinker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>026ce038-3668-4d20-af67-a468d3782b0f</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>560R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picblinker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a103cb9-2641-4097-85f3-19d4ef8a3e3f</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>PIC10F320-IOT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/41585A.pdf</datasheet>
+      <libsource lib="MCU_Microchip_PIC10" part="PIC10F320-IOT" description="256W Flash, 64B SRAM, SOT-23-6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picblinker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7dfd98fe-48ff-4f22-b179-591516a5f1ce</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_PIC10" part="PIC10F320-IOT">
+      <description>256W Flash, 64B SRAM, SOT-23-6</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/41585A.pdf</docs>
+      <footprints>
+        <fp>SOT*23*6*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PIC10F320-IOT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/41585A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RA0" type="bidirectional"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="RA1" type="bidirectional"/>
+        <pin num="4" name="RA2" type="bidirectional"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="RA3" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_PIC10">
+      <uri>/usr/share/kicad/symbols//MCU_Microchip_PIC10.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(U1-Pad6)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="RA3" pintype="input"/>
+    </net>
+    <net code="3" name="VDD">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="4" name="VSS">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U1" pin="2" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="5" name="unconnected-(U1-Pad1)">
+      <node ref="U1" pin="1" pinfunction="RA0" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="RA1" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="RA2" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>

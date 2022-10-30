@@ -1,0 +1,23 @@
+program picblinker;
+
+{ Declarations section }
+
+begin
+  { Main program }
+  TRISA := 0;  // TRISA register (data direction)  0 = OUTPUT
+  PORTA := 0;  // PORTA register (reads the levels on the pins oft he device)
+  LATA  := 0;  // LATA register (output latch) all OUTPUTS to 0
+  
+  while true do
+  begin
+    LATA.0 := 1;
+    LATA.1 := 1;
+    LATA.2 := 1;
+    LATA.0 := 0;
+    LATA.1 := 0;
+    LATA.2 := 0;
+  end;
+  
+  
+  
+end.
